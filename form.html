@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Bookings</title>
+    <link rel="stylesheet" href="/dist/css/style.css" />
+    <header>
+      <nav>
+        <h1>Logo</h1>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact Us</a></li>
+        </ul>
+        <div class="clear"></div>
+      </nav>
+    </header>
+
+    <script src="/dist/js/script.js" ></script>  
+  </head>
+
+  <div class="packages">
+      <h1> Packages</h1>
+       <ol >
+           <li class="list-elements"> Travel & Appetier </li>
+           <li> Travel  </li>
+           <li> Travel & Hotel </li>
+           </ol>
+  </div>
+
+
+  <body>
+    <form onsubmit="event.preventDefault();onFormSubmit()">
+        <label style="margin-left: -11rem;" for="name">Username</label> 
+        <input type="text" name="name"  id="name"/>
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" />
+        <label for="number">Phno Number</label> 
+        <input type="number" name="number" id="number" />
+        <label for="message">Package</label>
+        <input type="number" name="message" id="package" ></input>
+        <button type="submit" class="form-btn">Submit</button>
+      </form>
+<center>
+      <table class="main">
+           
+              <td>
+                  <table class="list" id="bookingList">
+               <thead>
+                   <tr>
+              <th id="name" >Names</th>
+              <th id="email">Emails</th>
+              <th id="package"> Packages</th>
+              <th id="number"> PhoneNumber</th>
+              <th></th>
+            </tr>
+            </thead>
+            <tbody>
+
+            </tbody>
+            </table>
+            </td>
+            
+      </table>
+    </center>
+  </body>
+</html>

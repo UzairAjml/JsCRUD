@@ -1,0 +1,35 @@
+body {
+  background-color: rgb(208, 228, 228);
+}
+.heading {
+  color: green;
+  text-align: center;
+}
+.video {
+  text-align: center;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
+.figure {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  width: 20%;
+}
+
+.column {
+  padding-left: 1.2rem;
+  padding-right: 1.2rem;
+  box-sizing: border-box;
+}
+.column img {
+  width: 25rem;
+  height: 15rem;
+}
+.caption {
+  caption-side: top;
+}
+
+p {
+  width: 25rem;
+}
