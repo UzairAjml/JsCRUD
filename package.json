@@ -9,7 +9,7 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "homepage": "https://github.com/UzairAjml/CRUD-in-JS",
+  "homepage": "https://github.com/UzairAjml/JsCRUD",
   "dependencies": {
     "gh-pages": "^3.2.3"
   }
